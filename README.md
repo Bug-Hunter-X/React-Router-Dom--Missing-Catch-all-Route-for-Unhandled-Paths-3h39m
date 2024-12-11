@@ -1,0 +1,3 @@
+# React Router Dom: Missing Catch-all Route
+
+This repository demonstrates a common error in React Router v6 and how to fix it.  The problem arises when you don't include a catch-all route (`/*`) to handle paths that don't match any defined routes.  Without it, React Router renders nothing, resulting in a blank page or unexpected behavior.  This example uses nested routes to highlight the issue more effectively.
